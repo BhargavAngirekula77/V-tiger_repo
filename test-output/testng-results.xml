@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[DB_Connection is done]]>
+    </line>
+    <line>
+      <![CDATA[broser launch done sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[log_in done sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[log_out done sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[driver closed done sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[dbConnection_clse done sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-13T18:20:22 IST" name="Default suite" finished-at="2023-11-13T18:20:38 IST" duration-ms="15806">
+    <groups>
+    </groups>
+    <test started-at="2023-11-13T18:20:22 IST" name="Default test" finished-at="2023-11-13T18:20:38 IST" duration-ms="15806">
+      <class name="com.Ecommerce.Upgrade.Create_org">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:com.Ecommerce.Upgrade.Create_org@5e7cd6cc]" started-at="2023-11-13T18:20:22 IST" name="dbConnection" finished-at="2023-11-13T18:20:22 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB_Connection is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="launch_broswer()[pri:0, instance:com.Ecommerce.Upgrade.Create_org@5e7cd6cc]" started-at="2023-11-13T18:20:22 IST" name="launch_broswer" finished-at="2023-11-13T18:20:29 IST" duration-ms="6657" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[broser launch done sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch_broswer -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Ecommerce.Upgrade.Create_org@5e7cd6cc]" started-at="2023-11-13T18:20:29 IST" name="login" finished-at="2023-11-13T18:20:32 IST" duration-ms="2590" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[log_in done sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="script()[pri:0, instance:com.Ecommerce.Upgrade.Create_org@5e7cd6cc]" started-at="2023-11-13T18:20:32 IST" name="script" finished-at="2023-11-13T18:20:38 IST" duration-ms="6256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script -->
+        <test-method is-config="true" signature="close_bros()[pri:0, instance:com.Ecommerce.Upgrade.Create_org@5e7cd6cc]" started-at="2023-11-13T18:20:38 IST" name="close_bros" finished-at="2023-11-13T18:20:38 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[driver closed done sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close_bros -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.Ecommerce.Upgrade.Create_org@5e7cd6cc]" started-at="2023-11-13T18:20:38 IST" name="logOut" finished-at="2023-11-13T18:20:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[log_out done sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="dbConnection_clse()[pri:0, instance:com.Ecommerce.Upgrade.Create_org@5e7cd6cc]" started-at="2023-11-13T18:20:38 IST" name="dbConnection_clse" finished-at="2023-11-13T18:20:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[dbConnection_clse done sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnection_clse -->
+      </class> <!-- com.Ecommerce.Upgrade.Create_org -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
