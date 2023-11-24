@@ -11,7 +11,7 @@ import objectClass.OrganizationsAddPage_POM;
 import objectClass.OrginzationHomePage_POM;
 
 
-public class Create_org extends BaseClass_For_VTiger {
+public class Create_orgtest extends BaseClass_For_VTiger {
 	@Test
 	public void script() throws Exception {
 		OrginzationHomePage_POM org=new OrginzationHomePage_POM(driver);
@@ -24,6 +24,7 @@ public class Create_org extends BaseClass_For_VTiger {
 		orgAdd.clickOnName(org_name);
 		
 		orgAdd.clickOnSaveButton();
+		System.out.println("ebiewbibifebbibifbeibf");
 		
 	}
 

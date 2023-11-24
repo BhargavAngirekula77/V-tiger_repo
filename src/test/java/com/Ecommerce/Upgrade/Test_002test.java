@@ -11,7 +11,7 @@ import generic_utility.WebDriver_utility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import objectClass.Login_out_POM_class;
 
-public class Test_002 {
+public class Test_002test {
 @Test
 public  void script() throws Exception {
 	Excel_util exc= new Excel_util();

@@ -8,7 +8,7 @@ import objectClass.ContactPage_POM;
 import objectClass.CreateContactPage_POM;
 import objectClass.HomePage_POM;
 
-public class CreateContact extends BaseClass_For_VTiger {
+public class CreateContacttest extends BaseClass_For_VTiger {
 	@Test
 	public void contactScript() throws Exception {
 		HomePage_POM hom= new HomePage_POM(driver);

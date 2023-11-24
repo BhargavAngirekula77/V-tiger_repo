@@ -10,7 +10,7 @@ import com.mysql.cj.x.protobuf.MysqlxConnection.Close;
 
 import generic_utility.IConstant_utility;
 
-public class Sample_database_connection {
+public class Sample_database_connectiontest {
 
 	public static void main(String[] args) throws Exception {
 		Connection c = null;
