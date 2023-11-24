@@ -45,7 +45,9 @@ public  void script() throws Exception {
 
 	driver.findElement(By.xpath("(//input[@title='Save [Alt+S]'])[2]")).click();
 	System.out.println(fristname+lastname+company);
-	
+
+	System.out.println(fristname+lastname+company);
+
 	
 	
 	
